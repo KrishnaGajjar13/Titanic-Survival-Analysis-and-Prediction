@@ -5,7 +5,7 @@
 
 ![Titanic](https://i.pinimg.com/564x/98/73/c6/9873c68f08671ca72aece2d1ceb6b93b.jpg)
 
-Titanic Survival Prediction is a machine learning project that uses the infamous Titanic disaster dataset to predict the survival of passengers. This repository is designed for beginners to get started with Kaggle competitions and supervised learning. It covers data loading, cleaning, feature engineering, model training (including hyperparameter tuning), evaluation, and results interpretation.
+Titanic Survival Prediction is a machine learning project that uses the infamous Titanic disaster dataset to predict the survival of passengers. This repository is designed for beginners to get started with supervised learning. It covers data loading, cleaning, feature engineering, model training (including hyperparameter tuning), evaluation, and results interpretation.
 
 ---
 
@@ -18,7 +18,6 @@ Titanic Survival Prediction is a machine learning project that uses the infamous
 - [Modeling & Tuning](#modeling--tuning)
 - [Results & Analysis](#results--analysis)
 - [Tools & Libraries](#tools--libraries)
-- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
@@ -138,17 +137,6 @@ Key insights include the impact of features such as gender, age, and class on su
 
 ---
 
-## Contributing
-
-Contributions are welcome! If you have suggestions, improvements, or additional features, please:
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your_feature`).
-3. Commit your changes (`git commit -m 'Add some feature'`).
-4. Push your branch (`git push origin feature/your_feature`).
-5. Open a pull request.
-
----
-
 ## License
 
 This project is licensed under the terms of the [Apache License](LICENSE.txt).
@@ -159,7 +147,7 @@ This project is licensed under the terms of the [Apache License](LICENSE.txt).
 
 For questions, suggestions, or collaboration opportunities, please contact:
 
-**Ruby Poddar**  
+**Krishna Gajjar**  
 Email: [krishnagajjar1311@gmail.com](mailto:krishnagajjar1311@gmail.com)
 
 ---
