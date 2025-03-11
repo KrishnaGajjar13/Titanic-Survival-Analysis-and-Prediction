@@ -47,16 +47,15 @@ Titanic-Survival-Prediction/
 ├── Dataset/
 │   ├── train.csv         # Training dataset
 │   ├── test.csv          # Testing dataset
-├── notebooks/
-│   ├── titanic_project.ipynb      # Main Jupyter notebook with exploration and modeling
-│   ├── HyperparameterTuning.ipynb # Notebook covering tuning techniques
 ├── results/
 │   ├── model_performance.txt  # Evaluation logs for different models
 │   ├── model_performance.json # JSON summary of model performance metrics
 │   ├── roc_curve_*.png        # ROC curve images for each model
 │   ├── precision_recall_curve_*.png  # Precision-Recall curve images for each model
 │   ├── xgboost_tuned_feature_importance.png  # Feature importance for tuned XGBoost
-├── titanic_with_xgb_grid_tuning.py  # Standalone script with hyperparameter tuning examples
+├── Analysis.py  # Standalone script with hyperparameter tuning examples
+├── main.py
+├── HyperparameterTuning.py
 ├── README.md                # Project overview and instructions (this file)
 └── LICENSE.txt              # License information
 ```
@@ -163,7 +162,7 @@ This project is licensed under the terms of the [Apache License](LICENSE.txt).
 For questions, suggestions, or collaboration opportunities, please contact:
 
 **Ruby Poddar**  
-Email: [rubypoddarr@gmail.com](mailto:krishnagajjar1311@gmail.com)
+Email: [krishnagajjar1311@gmail.com](mailto:krishnagajjar1311@gmail.com)
 
 ---
 
