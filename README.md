@@ -153,6 +153,5 @@ Email: [krishnagajjar1311@gmail.com](mailto:krishnagajjar1311@gmail.com)
 _If you find this project useful, please consider giving it a star!_
 ```
 
----
 
 This version corrects the Git cloning command and ensures the format is consistent throughout the README. Enjoy sharing your project on GitHub!
