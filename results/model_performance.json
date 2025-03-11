@@ -1,0 +1,108 @@
+{
+    "RandomForest_Default": {
+        "scaled": false,
+        "training_time_sec": 0.18619823455810547,
+        "accuracy": 0.8435754189944135,
+        "auc": 0.8694513371932727,
+        "confusion_matrix": [
+            [
+                104,
+                13
+            ],
+            [
+                15,
+                47
+            ]
+        ],
+        "classification_report": "              precision    recall  f1-score   support\n\n           0       0.87      0.89      0.88       117\n           1       0.78      0.76      0.77        62\n\n    accuracy                           0.84       179\n   macro avg       0.83      0.82      0.83       179\nweighted avg       0.84      0.84      0.84       179\n"
+    },
+    "XGBoost_Default": {
+        "scaled": true,
+        "training_time_sec": 0.1698627471923828,
+        "accuracy": 0.8491620111731844,
+        "auc": 0.8768265784394815,
+        "confusion_matrix": [
+            [
+                106,
+                11
+            ],
+            [
+                16,
+                46
+            ]
+        ],
+        "classification_report": "              precision    recall  f1-score   support\n\n           0       0.87      0.91      0.89       117\n           1       0.81      0.74      0.77        62\n\n    accuracy                           0.85       179\n   macro avg       0.84      0.82      0.83       179\nweighted avg       0.85      0.85      0.85       179\n"
+    },
+    "LogisticRegression_Default": {
+        "scaled": true,
+        "training_time_sec": 0.004515409469604492,
+        "accuracy": 0.8379888268156425,
+        "auc": 0.891852770885029,
+        "confusion_matrix": [
+            [
+                99,
+                18
+            ],
+            [
+                11,
+                51
+            ]
+        ],
+        "classification_report": "              precision    recall  f1-score   support\n\n           0       0.90      0.85      0.87       117\n           1       0.74      0.82      0.78        62\n\n    accuracy                           0.84       179\n   macro avg       0.82      0.83      0.83       179\nweighted avg       0.84      0.84      0.84       179\n"
+    },
+    "RandomForest_Tuned": {
+        "scaled": false,
+        "training_time_sec": 0.266937255859375,
+        "accuracy": 0.8603351955307262,
+        "auc": 0.909773917838434,
+        "confusion_matrix": [
+            [
+                107,
+                10
+            ],
+            [
+                15,
+                47
+            ]
+        ],
+        "classification_report": "              precision    recall  f1-score   support\n\n           0       0.88      0.91      0.90       117\n           1       0.82      0.76      0.79        62\n\n    accuracy                           0.86       179\n   macro avg       0.85      0.84      0.84       179\nweighted avg       0.86      0.86      0.86       179\n"
+    },
+    "XGBoost_Tuned": {
+        "scaled": true,
+        "training_time_sec": 0.1760103702545166,
+        "accuracy": 0.8603351955307262,
+        "auc": 0.9221808657292528,
+        "confusion_matrix": [
+            [
+                108,
+                9
+            ],
+            [
+                16,
+                46
+            ]
+        ],
+        "classification_report": "              precision    recall  f1-score   support\n\n           0       0.87      0.92      0.90       117\n           1       0.84      0.74      0.79        62\n\n    accuracy                           0.86       179\n   macro avg       0.85      0.83      0.84       179\nweighted avg       0.86      0.86      0.86       179\n"
+    },
+    "RandomForest_Default_CV": {
+        "cv_mean_accuracy": 0.7980649188514357,
+        "cv_std_accuracy": 0.036266306521452324
+    },
+    "StackedModel": {
+        "scaled": true,
+        "training_time_sec": 1.1043031215667725,
+        "accuracy": 0.8491620111731844,
+        "auc": 0.8761373035566584,
+        "confusion_matrix": [
+            [
+                106,
+                11
+            ],
+            [
+                16,
+                46
+            ]
+        ],
+        "classification_report": "              precision    recall  f1-score   support\n\n           0       0.87      0.91      0.89       117\n           1       0.81      0.74      0.77        62\n\n    accuracy                           0.85       179\n   macro avg       0.84      0.82      0.83       179\nweighted avg       0.85      0.85      0.85       179\n"
+    }
+}

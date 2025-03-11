@@ -1,0 +1,378 @@
+Model: RandomForest (Scaled: False)
+Accuracy: 0.8324
+AUC: 0.8669
+Confusion Matrix:
+[[102  15]
+ [ 15  47]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.87      0.87      0.87       117
+           1       0.76      0.76      0.76        62
+
+    accuracy                           0.83       179
+   macro avg       0.81      0.81      0.81       179
+weighted avg       0.83      0.83      0.83       179
+
+
+Model: RandomForest (Scaled: False)
+Accuracy: 0.8436
+AUC: 0.8723
+Confusion Matrix:
+[[104  13]
+ [ 15  47]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.87      0.89      0.88       117
+           1       0.78      0.76      0.77        62
+
+    accuracy                           0.84       179
+   macro avg       0.83      0.82      0.83       179
+weighted avg       0.84      0.84      0.84       179
+
+
+Model: RandomForest (Scaled: False)
+Accuracy: 0.8380
+AUC: 0.8612
+Confusion Matrix:
+[[103  14]
+ [ 15  47]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.87      0.88      0.88       117
+           1       0.77      0.76      0.76        62
+
+    accuracy                           0.84       179
+   macro avg       0.82      0.82      0.82       179
+weighted avg       0.84      0.84      0.84       179
+
+
+Model: XGBoost (Scaled: True)
+Accuracy: 0.8492
+AUC: 0.8768
+Confusion Matrix:
+[[106  11]
+ [ 16  46]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.87      0.91      0.89       117
+           1       0.81      0.74      0.77        62
+
+    accuracy                           0.85       179
+   macro avg       0.84      0.82      0.83       179
+weighted avg       0.85      0.85      0.85       179
+
+
+Model: LogisticRegression (Scaled: True)
+Accuracy: 0.8380
+AUC: 0.8919
+Confusion Matrix:
+[[99 18]
+ [11 51]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.90      0.85      0.87       117
+           1       0.74      0.82      0.78        62
+
+    accuracy                           0.84       179
+   macro avg       0.82      0.83      0.83       179
+weighted avg       0.84      0.84      0.84       179
+
+
+Random Forest 10-Fold Cross-Validation Accuracy: 0.7992 ± 0.0396
+
+Model: StackedModel (Scaled: True)
+Accuracy: 0.8603
+AUC: 0.8724
+Confusion Matrix:
+[[108   9]
+ [ 16  46]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.87      0.92      0.90       117
+           1       0.84      0.74      0.79        62
+
+    accuracy                           0.86       179
+   macro avg       0.85      0.83      0.84       179
+weighted avg       0.86      0.86      0.86       179
+
+
+Model: RandomForest_Default (Scaled: False)
+Training Time: 0.16 seconds
+Accuracy: 0.8380
+AUC: 0.8649
+Confusion Matrix:
+[[103  14]
+ [ 15  47]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.87      0.88      0.88       117
+           1       0.77      0.76      0.76        62
+
+    accuracy                           0.84       179
+   macro avg       0.82      0.82      0.82       179
+weighted avg       0.84      0.84      0.84       179
+
+
+Model: XGBoost (Scaled: True)
+Training Time: 0.12 seconds
+Accuracy: 0.8492
+AUC: 0.8768
+Confusion Matrix:
+[[106  11]
+ [ 16  46]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.87      0.91      0.89       117
+           1       0.81      0.74      0.77        62
+
+    accuracy                           0.85       179
+   macro avg       0.84      0.82      0.83       179
+weighted avg       0.85      0.85      0.85       179
+
+
+Model: LogisticRegression (Scaled: True)
+Training Time: 0.00 seconds
+Accuracy: 0.8380
+AUC: 0.8919
+Confusion Matrix:
+[[99 18]
+ [11 51]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.90      0.85      0.87       117
+           1       0.74      0.82      0.78        62
+
+    accuracy                           0.84       179
+   macro avg       0.82      0.83      0.83       179
+weighted avg       0.84      0.84      0.84       179
+
+
+Model: RandomForest_Tuned (Scaled: False)
+Training Time: 0.18 seconds
+Accuracy: 0.8603
+AUC: 0.9098
+Confusion Matrix:
+[[107  10]
+ [ 15  47]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.88      0.91      0.90       117
+           1       0.82      0.76      0.79        62
+
+    accuracy                           0.86       179
+   macro avg       0.85      0.84      0.84       179
+weighted avg       0.86      0.86      0.86       179
+
+
+RandomForest_Default 10-Fold CV Accuracy: 0.8048 ± 0.0436
+
+Model: StackedModel (Scaled: True)
+Training Time: 1.12 seconds
+Accuracy: 0.8603
+AUC: 0.8768
+Confusion Matrix:
+[[108   9]
+ [ 16  46]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.87      0.92      0.90       117
+           1       0.84      0.74      0.79        62
+
+    accuracy                           0.86       179
+   macro avg       0.85      0.83      0.84       179
+weighted avg       0.86      0.86      0.86       179
+
+
+Model: RandomForest_Default (Scaled: False)
+Training Time: 0.16 seconds
+Accuracy: 0.8380
+AUC: 0.8605
+Confusion Matrix:
+[[102  15]
+ [ 14  48]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.88      0.87      0.88       117
+           1       0.76      0.77      0.77        62
+
+    accuracy                           0.84       179
+   macro avg       0.82      0.82      0.82       179
+weighted avg       0.84      0.84      0.84       179
+
+
+Model: XGBoost_Default (Scaled: True)
+Training Time: 0.09 seconds
+Accuracy: 0.8492
+AUC: 0.8768
+Confusion Matrix:
+[[106  11]
+ [ 16  46]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.87      0.91      0.89       117
+           1       0.81      0.74      0.77        62
+
+    accuracy                           0.85       179
+   macro avg       0.84      0.82      0.83       179
+weighted avg       0.85      0.85      0.85       179
+
+
+Model: LogisticRegression_Default (Scaled: True)
+Training Time: 0.05 seconds
+Accuracy: 0.8380
+AUC: 0.8919
+Confusion Matrix:
+[[99 18]
+ [11 51]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.90      0.85      0.87       117
+           1       0.74      0.82      0.78        62
+
+    accuracy                           0.84       179
+   macro avg       0.82      0.83      0.83       179
+weighted avg       0.84      0.84      0.84       179
+
+
+Model: RandomForest_Tuned (Scaled: False)
+Training Time: 0.16 seconds
+Accuracy: 0.8603
+AUC: 0.9098
+Confusion Matrix:
+[[107  10]
+ [ 15  47]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.88      0.91      0.90       117
+           1       0.82      0.76      0.79        62
+
+    accuracy                           0.86       179
+   macro avg       0.85      0.84      0.84       179
+weighted avg       0.86      0.86      0.86       179
+
+
+Model: RandomForest_Default (Scaled: False)
+Training Time: 0.19 seconds
+Accuracy: 0.8436
+AUC: 0.8695
+Confusion Matrix:
+[[104  13]
+ [ 15  47]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.87      0.89      0.88       117
+           1       0.78      0.76      0.77        62
+
+    accuracy                           0.84       179
+   macro avg       0.83      0.82      0.83       179
+weighted avg       0.84      0.84      0.84       179
+
+
+Model: XGBoost_Default (Scaled: True)
+Training Time: 0.17 seconds
+Accuracy: 0.8492
+AUC: 0.8768
+Confusion Matrix:
+[[106  11]
+ [ 16  46]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.87      0.91      0.89       117
+           1       0.81      0.74      0.77        62
+
+    accuracy                           0.85       179
+   macro avg       0.84      0.82      0.83       179
+weighted avg       0.85      0.85      0.85       179
+
+
+Model: LogisticRegression_Default (Scaled: True)
+Training Time: 0.00 seconds
+Accuracy: 0.8380
+AUC: 0.8919
+Confusion Matrix:
+[[99 18]
+ [11 51]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.90      0.85      0.87       117
+           1       0.74      0.82      0.78        62
+
+    accuracy                           0.84       179
+   macro avg       0.82      0.83      0.83       179
+weighted avg       0.84      0.84      0.84       179
+
+
+Model: RandomForest_Tuned (Scaled: False)
+Training Time: 0.27 seconds
+Accuracy: 0.8603
+AUC: 0.9098
+Confusion Matrix:
+[[107  10]
+ [ 15  47]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.88      0.91      0.90       117
+           1       0.82      0.76      0.79        62
+
+    accuracy                           0.86       179
+   macro avg       0.85      0.84      0.84       179
+weighted avg       0.86      0.86      0.86       179
+
+
+Model: XGBoost_Tuned (Scaled: True)
+Training Time: 0.18 seconds
+Accuracy: 0.8603
+AUC: 0.9222
+Confusion Matrix:
+[[108   9]
+ [ 16  46]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.87      0.92      0.90       117
+           1       0.84      0.74      0.79        62
+
+    accuracy                           0.86       179
+   macro avg       0.85      0.83      0.84       179
+weighted avg       0.86      0.86      0.86       179
+
+
+RandomForest_Default 10-Fold CV Accuracy: 0.7981 ± 0.0363
+
+Model: StackedModel (Scaled: True)
+Training Time: 1.10 seconds
+Accuracy: 0.8492
+AUC: 0.8761
+Confusion Matrix:
+[[106  11]
+ [ 16  46]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.87      0.91      0.89       117
+           1       0.81      0.74      0.77        62
+
+    accuracy                           0.85       179
+   macro avg       0.84      0.82      0.83       179
+weighted avg       0.85      0.85      0.85       179
+
+
