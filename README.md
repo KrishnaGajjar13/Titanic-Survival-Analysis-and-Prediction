@@ -1,8 +1,3 @@
-Below is a revised version of your README.md with corrected formatting—especially in the cloning section. You can replace your existing README.md with this updated version:
-
----
-
-
 # Titanic-Survival-Analysis-and-Prediction
 
 ---
@@ -76,12 +71,15 @@ pip install numpy pandas matplotlib seaborn scikit-learn xgboost
 
 ### Running the Project
 1. **Clone the Repository:**
+   ```
    git clone https://github.com/KrishnaGajjar13/Titanic-Survival-Analysis-and-Prediction.git
    cd Titanic-Survival-Analysis-and-Prediction
-2. **Run the Standalone Script:**
+   ```
+3. **Run the Standalone Script:**
    Alternatively, you can run the script with hyperparameter tuning:
+   ```
    python main.py
-
+   ```
 
 ---
 
@@ -151,7 +149,6 @@ For questions, suggestions, or collaboration opportunities, please contact:
 **Krishna Gajjar**  
 Email: [krishnagajjar1311@gmail.com](mailto:krishnagajjar1311@gmail.com)
 
----
 
 _If you find this project useful, please consider giving it a star!_
 ```
