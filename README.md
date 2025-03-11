@@ -2,8 +2,6 @@
 
 ---
 
-```markdown
-# Titanic Survival Prediction
 
 ![Titanic](https://i.pinimg.com/564x/98/73/c6/9873c68f08671ca72aece2d1ceb6b93b.jpg)
 
@@ -71,7 +69,7 @@ Titanic-Survival-Prediction/
 Install required libraries using pip:
 ```bash
 pip install numpy pandas matplotlib seaborn scikit-learn xgboost 
-```
+
 
 ### Running the Project
 1. **Clone the Repository:**
