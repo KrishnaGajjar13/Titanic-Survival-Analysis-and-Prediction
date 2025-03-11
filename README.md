@@ -1,7 +1,7 @@
+```markdown
 # Titanic-Survival-Analysis-and-Prediction
 
 ---
-
 
 ![Titanic](https://i.pinimg.com/564x/98/73/c6/9873c68f08671ca72aece2d1ceb6b93b.jpg)
 
@@ -40,7 +40,7 @@ The project is intended for anyone beginning their machine learning journey and 
 ## Repository Structure
 
 ```
-Titanic-Survival-Prediction/
+Titanic-Survival-Analysis-and-Prediction/
 ├── Dataset/
 │   ├── train.csv         # Training dataset
 │   ├── test.csv          # Testing dataset
@@ -50,7 +50,7 @@ Titanic-Survival-Prediction/
 │   ├── roc_curve_*.png        # ROC curve images for each model
 │   ├── precision_recall_curve_*.png  # Precision-Recall curve images for each model
 │   ├── xgboost_tuned_feature_importance.png  # Feature importance for tuned XGBoost
-├── Analysis.py  # Standalone script with hyperparameter tuning examples
+├── Analysis.py              # Standalone script with hyperparameter tuning examples
 ├── main.py
 ├── HyperparameterTuning.py
 ├── README.md                # Project overview and instructions (this file)
@@ -67,13 +67,13 @@ Titanic-Survival-Prediction/
 ### Libraries
 Install required libraries using pip:
 ```bash
-pip install numpy pandas matplotlib seaborn scikit-learn xgboost 
-
+pip install numpy pandas matplotlib seaborn scikit-learn xgboost
+```
 
 ### Running the Project
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/Titanic-Survival-Prediction.git](https://github.com/KrishnaGajjar13/Titanic-Survival-Analysis-and-Prediction.git
+   git clone https://github.com/KrishnaGajjar13/Titanic-Survival-Analysis-and-Prediction.git
    cd Titanic-Survival-Analysis-and-Prediction
    ```
 2. **Run the Standalone Script:**
@@ -153,3 +153,8 @@ Email: [krishnagajjar1311@gmail.com](mailto:krishnagajjar1311@gmail.com)
 ---
 
 _If you find this project useful, please consider giving it a star!_
+```
+
+---
+
+This version corrects the Git cloning command and ensures the format is consistent throughout the README. Enjoy sharing your project on GitHub!
